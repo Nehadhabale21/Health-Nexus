@@ -49,50 +49,48 @@ ________________________________________
 
 HealthNexus/  
 │── src/main/java/com/healthnexus/  
-│   ├── controller/               # Spring MVC Controllers  
+│   ├── controller/                     # Spring MVC Controllers  
 │   │     ├── AppointmentController.java  
 │   │     ├── BillingController.java  
 │   │     ├── DoctorController.java  
-│   │     └── HomeController.java 
-
-│   │     └── PatientController.java 
+│   │     ├── HomeController.java  
+│   │     └── PatientController.java  
 │   │  
-│   ├── dao/                      # Data Access Layer (DAO)  
+│   ├── dao/                            # Data Access Layer (DAO)  
 │   │     ├── AppointmentDao.java  
 │   │     ├── BillDao.java  
-│   │     └── DoctorDao.java
-
-│   │     └── PatientDao.java
+│   │     ├── DoctorDao.java  
+│   │     └── PatientDao.java  
 │   │  
-│   ├── model/                    # Entity Classes (Hibernate Mapping)  
+│   ├── model/                          # Entity Classes (Hibernate Mapping)  
 │   │     ├── Appointment.java  
 │   │     ├── Bill.java  
 │   │     ├── Doctor.java  
 │   │     └── Patient.java  
 │   │  
-│   ├── service/                  # Business Logic Layer  
-│        ├── AppointmentService.java  
-│        ├── BillService.java  
-│        ├── DoctorService.java  
-│        └── PatientService.java  
+│   ├── service/                        # Business Logic Layer  
+│   │     ├── AppointmentService.java  
+│   │     ├── BillService.java  
+│   │     ├── DoctorService.java  
+│   │     └── PatientService.java  
 │  
 │── src/main/webapp/  
 │   ├── WEB-INF/  
-│   │     ├── web.xml                # Deployment Descriptor  
-│   │     ├── dispatcher-servlet.xml # Spring MVC Dispatcher config  
-│   │     └── views/                 # JSP Views  
-│   │           ├── 🏠 index.jsp              # Home Page  
-│   │           ├── 👨‍⚕️ doctor_form.jsp      # Add Doctor Form  
-│   │           ├── 👨‍⚕️ doctors.jsp          # Doctor List Page  
-│   │           ├── 🧑‍🤝‍🧑 patient_form.jsp    # Add Patient Form  
-│   │           ├── 🧑‍🤝‍🧑 patients.jsp        # Patient List Page  
-│   │           ├── 📅 appointment_form.jsp   # Appointment Booking Form  
-│   │           ├── 📅 appointments.jsp       # Appointments List Page  
-│   │           ├── 💵 bill_form.jsp          # Generate Bill Form  
-│   │           └── 💵 bills.jsp              # Bills List Page  
+│   │     ├── web.xml                      # Deployment Descriptor  
+│   │     ├── dispatcher-servlet.xml       # Spring MVC Dispatcher config  
+│   │     └── views/                       # JSP Views  
+│   │           ├── 🏠 index.jsp                # Home Page  
+│   │           ├── 👨‍⚕️ doctor_form.jsp          # Add Doctor Form  
+│   │           ├── 👨‍⚕️ doctors.jsp              # Doctor List Page  
+│   │           ├── 🧑‍🤝‍🧑 patient_form.jsp        # Add Patient Form  
+│   │           ├── 🧑‍🤝‍🧑 patients.jsp            # Patient List Page  
+│   │           ├── 📅 appointment_form.jsp       # Appointment Booking Form  
+│   │           ├── 📅 appointments.jsp           # Appointments List Page  
+│   │           ├── 💵 bill_form.jsp              # Generate Bill Form  
+│   │           └── 💵 bills.jsp                  # Bills List Page  
 │  
-│  
-│── pom.xml                           # Maven dependencies & build settings  
+│── pom.xml                               # Maven dependencies & build settings  
+ 
 
 ________________________________________
 
