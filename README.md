@@ -135,10 +135,10 @@ ________________________________________
 
 #### 👨‍⚕️ **Doctor Form** 
 
-#<img width="1854" height="876" alt="Doctor Form" src="https://github.com/user-attachments/assets/8faadde0-c736-4c9d-b01b-678db359c4d0" />
+<img width="1854" height="876" alt="Doctor Form" src="https://github.com/user-attachments/assets/8faadde0-c736-4c9d-b01b-678db359c4d0" />
 
 
-### 👨‍⚕️ **Doctor List** 
+#### 👨‍⚕️ **Doctor List** 
 
 <img width="1909" height="877" alt="Doctor List" src="https://github.com/user-attachments/assets/66f211a2-8b52-45a4-ae23-b5bc482d76b9" />
 
