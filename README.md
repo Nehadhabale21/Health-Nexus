@@ -54,12 +54,14 @@ HealthNexus/
 │   │     ├── BillingController.java  
 │   │     ├── DoctorController.java  
 │   │     └── HomeController.java 
+
 │   │     └── PatientController.java 
 │   │  
 │   ├── dao/                      # Data Access Layer (DAO)  
 │   │     ├── AppointmentDao.java  
 │   │     ├── BillDao.java  
 │   │     └── DoctorDao.java
+
 │   │     └── PatientDao.java
 │   │  
 │   ├── model/                    # Entity Classes (Hibernate Mapping)  
