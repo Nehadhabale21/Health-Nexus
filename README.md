@@ -1,13 +1,15 @@
-# HealthNexus - Hospital Management System
+# 📝 **HealthNexus - Hospital Management System**
 
-📌 Project Description  
+### 📌 **Project Description**
+
 HealthNexus is a web-based Hospital Management System built using Spring MVC, Hibernate, JSP, and MySQL.  
 It provides an efficient way to manage doctors, patients, appointments, and hospital workflows with CRUD operations, validation, and secure database integration.  
 The system is designed to simplify hospital administration tasks such as patient registration, doctor management, appointment scheduling, billing, and generating reports.
 
 ________________________________________
 
-🚀 Features  
+### 🚀 **Features**  
+
 • 👨‍⚕️ Doctor CRUD operations (Add, View, Update, Delete)  
 • 🧑‍🤝‍🧑 Patient registration & management  
 • 📅 Appointment scheduling & cancellation  
@@ -21,16 +23,18 @@ ________________________________________
 
 ________________________________________
 
-🛠 Technologies Used  
-• **Backend:** Spring MVC, Hibernate, Java  
-• **Frontend:** JSP, HTML, CSS, Bootstrap  
-• **Database:** MySQL  
-• **Build Tool:** Maven  
-• **Server:** Apache Tomcat  
+### 🛠 **Technologies Used**
+
+• Backend: Spring MVC, Hibernate, Java  
+• Frontend: JSP, HTML, CSS, Bootstrap  
+• Database: MySQL  
+• Build Tool: Maven  
+• Server: Apache Tomcat  
 
 ________________________________________
 
-📂 Project Structure  
+### 📂 **Project Structure**
+
 
 HealthNexus/  
 │── src/main/java/com/healthnexus/  
@@ -73,7 +77,8 @@ HealthNexus/
 
 ________________________________________
 
-🏆 Challenges Faced  
+### 🏆 **Challenges Faced** 
+
 • ⚙️ Configuration Issues – Initial setup of Spring MVC & Hibernate integration.  
 • 🗓 Appointment Handling – Implementing date/time with `LocalDateTime`.  
 • 🔄 Session & Transaction Management – Ensured proper commit/rollback in Hibernate.  
@@ -83,7 +88,8 @@ ________________________________________
 
 ________________________________________
 
-🔮 Future Enhancements  
+### 🔮 **Future Enhancements** 
+
 • ⏱ Patient medical history tracking  
 • 📊 Dashboard with analytics & hospital reports  
 • 🌐 REST API integration for third-party systems  
@@ -93,12 +99,13 @@ ________________________________________
 
 ________________________________________
 
-📸 Screenshots  
-🏠 Home Page  
-🔐 Login Page  
-👨‍⚕️ Doctor Management  
-🧑‍🤝‍🧑 Patient Management  
-📅 Appointment Scheduling  
-💵 Billing Page  
-📊 Dashboard  
+### 📸 **Screenshots**
+
+#### 🏠 **Home Page**  
+#### 🔐 **Login Page**  
+#### 👨‍⚕️ **Doctor Management**  
+#### 🧑‍🤝‍🧑 **Patient Management**  
+#### 📅 **Appointment Scheduling**  
+#### 💵 **Billing Page**  
+#### 📊 **Dashboard**  
 
